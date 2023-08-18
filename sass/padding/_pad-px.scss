@@ -1,0 +1,130 @@
+// PADDING in pixel All SIDES
+
+$ppx:1;
+@while $ppx <= 9 {
+	.p-#{$ppx}-px{
+		padding:($ppx*1px);
+	}
+	$ppx:$ppx+1;
+}
+
+$ppx:10;
+@while $ppx <= 100 {
+	.p-#{$ppx}-px{
+		padding:($ppx*1px);
+	}
+	$ppx:$ppx+5;
+}
+
+
+// PADDING TOP
+
+$ppx:1;
+@while $ppx <= 9 {
+	.p-t-#{$ppx}-px{
+		padding-top:($ppx*1px);
+	}
+	$ppx:$ppx+1;
+}
+
+$ppx:10;
+@while $ppx <= 100 {
+	.p-t-#{$ppx}-px{
+		padding-top:($ppx*1px);
+	}
+	$ppx:$ppx+5;
+}
+
+// PADDING RIGHT
+
+$ppx:1;
+@while $ppx <= 9 {
+	.p-r-#{$ppx}-px{
+		padding-right:($ppx*1px);
+	}
+	$ppx:$ppx+1;
+}
+
+$ppx:10;
+@while $ppx <= 100 {
+	.p-r-#{$ppx}-px{
+		padding-right:($ppx*1px);
+	}
+	$ppx:$ppx+5;
+}
+
+// PADDING BOTTOM
+
+$ppx:1;
+@while $ppx <= 9 {
+	.p-b-#{$ppx}-px{
+		padding-bottom:($ppx*1px);
+	}
+	$ppx:$ppx+1;
+}
+
+$ppx:10;
+@while $ppx <= 100 {
+	.p-b-#{$ppx}-px{
+		padding-bottom:($ppx*1px);
+	}
+	$ppx:$ppx+5;
+}
+
+// PADDING LEFT
+
+
+$ppx:1;
+@while $ppx <= 9 {
+	.p-l-#{$ppx}-px{
+		padding-left:($ppx*1px);
+	}
+	$ppx:$ppx+1;
+}
+
+$ppx:10;
+@while $ppx <= 100 {
+	.p-l-#{$ppx}-px{
+		padding-left:($ppx*1px);
+	}
+	$ppx:$ppx+5;
+}
+
+// PADDING LEFT AND RIGHT (X Axis)
+
+$ppx:1;
+@while $ppx <= 9 {
+	.p-x-#{$ppx}-px{
+		padding-left:($ppx*1px);
+		padding-right:($ppx*1px);
+	}
+	$ppx:$ppx+1;
+}
+
+$ppx:10;
+@while $ppx <= 100 {
+	.p-x-#{$ppx}-px{
+		padding-left:($ppx*1px);
+		padding-right:($ppx*1px);
+	}
+	$ppx:$ppx+5;
+}
+// PADDING TOP AND BOTTOM (Y Axis)
+
+$ppx:1;
+@while $ppx <= 9 {
+	.p-y-#{$ppx}-px{
+		padding-top:($ppx*1px);
+		padding-bottom:($ppx*1px);
+	}
+	$ppx:$ppx+1;
+}
+
+$ppx:10;
+@while $ppx <= 100 {
+	.p-y-#{$ppx}-px{
+		padding-top:($ppx*1px);
+		padding-bottom:($ppx*1px);
+	}
+	$ppx:$ppx+5;
+}

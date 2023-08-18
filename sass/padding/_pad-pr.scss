@@ -1,0 +1,129 @@
+// PADDING in percentage All SIDES
+
+$ppr:1;
+@while $ppr <= 9 {
+	.p-#{$ppr}-pr{
+		padding:($ppr*1%);
+	}
+	$ppr:$ppr+1;
+}
+
+$ppr:10;
+@while $ppr <= 25 {
+	.p-#{$ppr}-pr{
+		padding:($ppr*1%);
+	}
+	$ppr:$ppr+5;
+}
+
+
+// PADDING TOP
+
+$ppr:1;
+@while $ppr <= 9 {
+	.p-t-#{$ppr}-pr{
+		padding-top:($ppr*1%);
+	}
+	$ppr:$ppr+1;
+}
+
+$ppr:10;
+@while $ppr <= 25 {
+	.p-t-#{$ppr}-pr{
+		padding-top:($ppr*1%);
+	}
+	$ppr:$ppr+5;
+}
+
+// PADDING RIGHT
+
+$ppr:1;
+@while $ppr <= 9 {
+	.p-r-#{$ppr}-pr{
+		padding-right:($ppr*1%);
+	}
+	$ppr:$ppr+1;
+}
+
+$ppr:10;
+@while $ppr <= 25 {
+	.p-r-#{$ppr}-pr{
+		padding-right:($ppr*1%);
+	}
+	$ppr:$ppr+5;
+}
+
+// PADDING BOTTOM
+
+$ppr:1;
+@while $ppr <= 9 {
+	.p-b-#{$ppr}-pr{
+		padding-bottom:($ppr*1%);
+	}
+	$ppr:$ppr+1;
+}
+
+$ppr:10;
+@while $ppr <= 25 {
+	.p-b-#{$ppr}-pr{
+		padding-bottom:($ppr*1%);
+	}
+	$ppr:$ppr+5;
+}
+
+// PADDING LEFT
+
+$ppr:1;
+@while $ppr <= 9 {
+	.p-l-#{$ppr}-pr{
+		padding-left:($ppr*1%);
+	}
+	$ppr:$ppr+1;
+}
+
+$ppr:10;
+@while $ppr <= 25 {
+	.p-l-#{$ppr}-pr{
+		padding-left:($ppr*1%);
+	}
+	$ppr:$ppr+5;
+}
+
+// PADDING LEFT AND RIGHT (X Axis)
+
+$ppr:1;
+@while $ppr <= 9 {
+	.p-x-#{$ppr}-pr{
+		padding-left:($ppr*1%);
+		padding-right:($ppr*1%);
+	}
+	$ppr:$ppr+1;
+}
+
+$ppr:10;
+@while $ppr <= 25 {
+	.p-x-#{$ppr}-pr{
+		padding-left:($ppr*1%);
+		padding-right:($ppr*1%);
+	}
+	$ppr:$ppr+5;
+}
+// PADDING TOP AND BOTTOM (Y Axis)
+
+$ppr:1;
+@while $ppr <= 9 {
+	.p-y-#{$ppr}-pr{
+		padding-top:($ppr*1%);
+		padding-bottom:($ppr*1%);
+	}
+	$ppr:$ppr+1;
+}
+
+$ppr:10;
+@while $ppr <= 25 {
+	.p-y-#{$ppr}-pr{
+		padding-top:($ppr*1%);
+		padding-bottom:($ppr*1%);
+	}
+	$ppr:$ppr+5;
+}
