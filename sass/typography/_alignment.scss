@@ -1,0 +1,9 @@
+// TEXT ALIGNMENT
+
+$text-align:(center,left,right,justify);
+
+@each $align in $text-align {
+	.txt-#{$align}{
+		text-align:#{$align};
+	}
+}
