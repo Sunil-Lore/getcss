@@ -1,0 +1,23 @@
+// colorloop SCSS
+
+@each $color in $my-color {
+    .#{"" + $color}-txt{
+        color:#{$color};
+    }
+     .#{"" + $color} {
+      background-color:#{$color};  
+    }
+    @for $i from 20 through 80 {
+      @if $i % 20 == 0 {
+        $percentage: $i*1%;
+        .#{"" + $color}-dark-#{$i} {
+          background-color: mix(black, $color, $percentage);
+          color:#FFFFFF;
+        }
+        .#{"" + $color}-light-#{$i} {
+          background-color: mix(white, $color, $percentage);
+          color:#000000;
+        }
+      }
+    }
+}
