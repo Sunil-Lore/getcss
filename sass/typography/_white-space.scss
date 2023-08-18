@@ -1,0 +1,13 @@
+// WHITESPACE
+
+$white-space:("wrap":"normal","nowrap":"nowrap");
+
+@each $key,$value in $white-space {
+	.#{$key}{
+		white-space:#{$value};
+	}
+}
+
+.word-break {
+	word-wrap:break-word;
+}

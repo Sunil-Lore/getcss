@@ -1,0 +1,9 @@
+// LETTER SPACING
+
+$ls:-2;
+@while $ls <= 5 {
+	.ls-#{$ls}{
+		letter-spacing:($ls*1px);
+	}
+	$ls:$ls+1;
+}
