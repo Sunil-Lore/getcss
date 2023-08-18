@@ -1,0 +1,129 @@
+// margin percentage All SIDES
+
+$mpr:1;
+@while $mpr <= 9 {
+	.m-#{$mpr}-pr{
+		margin:($mpr*1%);
+	}
+	$mpr:$mpr+1;
+}
+
+$mpr:10;
+@while $mpr <= 25 {
+	.m-#{$mpr}-pr{
+		margin:($mpr*1%);
+	}
+	$mpr:$mpr+5;
+}
+
+
+// margin TOP 
+
+$mpr:1;
+@while $mpr <= 9 {
+	.m-t-#{$mpr}-pr{
+		margin-top:($mpr*1%);
+	}
+	$mpr:$mpr+1;
+}
+
+$mpr:10;
+@while $mpr <= 25 {
+	.m-t-#{$mpr}-pr{
+		margin-top:($mpr*1%);
+	}
+	$mpr:$mpr+5;
+}
+
+// margin RIGHT
+
+$mpr:1;
+@while $mpr <= 9 {
+	.m-r-#{$mpr}-pr{
+		margin-right:($mpr*1%);
+	}
+	$mpr:$mpr+1;
+}
+
+$mpr:10;
+@while $mpr <= 25 {
+	.m-r-#{$mpr}-pr{
+		margin-right:($mpr*1%);
+	}
+	$mpr:$mpr+5;
+}
+
+// margin BOTTOM
+
+$mpr:1;
+@while $mpr <= 9 {
+	.m-b-#{$mpr}-pr{
+		margin-bottom:($mpr*1%);
+	}
+	$mpr:$mpr+1;
+}
+
+$mpr:10;
+@while $mpr <= 25 {
+	.m-b-#{$mpr}-pr{
+		margin-bottom:($mpr*1%);
+	}
+	$mpr:$mpr+5;
+}
+
+// margin LEFT
+
+$mpr:1;
+@while $mpr <= 9 {
+	.m-l-#{$mpr}-pr{
+		margin-left:($mpr*1%);
+	}
+	$mpr:$mpr+1;
+}
+
+$mpr:10;
+@while $mpr <= 25 {
+	.m-l-#{$mpr}-pr{
+		margin-left:($mpr*1%);
+	}
+	$mpr:$mpr+5;
+}
+
+// margin LEFT AND RIGHT (X Axis)
+
+$mpr:1;
+@while $mpr <= 9 {
+	.m-x-#{$mpr}-pr{
+		margin-left:($mpr*1%);
+		margin-right:($mpr*1%);
+	}
+	$mpr:$mpr+1;
+}
+
+$mpr:10;
+@while $mpr <= 25 {
+	.m-x-#{$mpr}-pr{
+		margin-left:($mpr*1%);
+		margin-right:($mpr*1%);
+	}
+	$mpr:$mpr+5;
+}
+// margin TOP AND BOTTOM (Y Axis)
+
+$mpr:1;
+@while $mpr <= 9 {
+	.m-y-#{$mpr}-pr{
+		margin-top:($mpr*1%);
+		margin-bottom:($mpr*1%);
+	}
+	$mpr:$mpr+1;
+}
+
+$mpr:10;
+@while $mpr <= 25 {
+	.m-y-#{$mpr}-pr{
+		margin-top:($mpr*1%);
+		margin-bottom:($mpr*1%);
+	}
+	$mpr:$mpr+5;
+}
