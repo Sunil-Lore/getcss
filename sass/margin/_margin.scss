@@ -1,0 +1,58 @@
+// margin auto
+.m-auto {
+    margin:auto;
+}
+.m-t-auto{
+    margin-top:auto;
+}
+.m-r-auto{
+    margin-right:auto;
+}
+.m-b-auto{
+    margin-bottom:auto;
+}
+.m-l-auto{
+    margin-left:auto;
+}
+
+.m-x-auto {
+    margin-left:auto;
+    margin-right:auto;
+}
+.m-y-auto {
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+// margin none
+
+.m-0{
+	margin:0;
+}
+
+.m-t-0{
+	margin-top:0;
+}
+
+.m-r-0{
+	margin-right:0;
+}
+
+.m-b-0{
+	margin-bottom:0;
+}
+
+.m-l-0{
+	margin-left:0;
+}
+
+.m-x-0{
+	margin-left:0;
+	margin-right:0;
+}
+
+.m-y-0{
+	margin-top:0;
+	margin-bottom:0;
+}
+@import "margin-pr","margin-px";
