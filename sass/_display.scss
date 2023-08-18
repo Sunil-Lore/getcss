@@ -1,0 +1,9 @@
+// Z INDEX
+
+$zi:-5;
+@while $zi <= 5 {
+	.z-index-#{$zi}{
+		z-index:($zi*1);
+	}
+	$zi:$zi+1;
+}

@@ -1,0 +1,87 @@
+// Flex Container
+.fx-container{
+    @include fx;
+}
+
+// Flex Direction
+
+.fx-column{
+    @include fx;
+    flex-direction:column;
+}
+.fx-column-reverse{
+    @include fx;
+    flex-direction: column-reverse;
+}
+.fx-row{
+    @include fx;
+    flex-direction:row;
+}
+.fx-row-reverse{
+    @include fx;
+    flex-direction: row-reverse;
+}
+// Flex Wrap
+
+.fx-wrap{
+    @include fx;
+    flex-wrap: wrap;
+}
+.fx-nowrap{
+    @include fx;
+    flex-wrap: nowrap;
+}
+.fx-wrap-reverse{
+    @include fx;
+    flex-wrap: wrap-reverse;
+}
+
+// flex Justify Content
+
+.fx-center{
+    @include fx;
+    justify-content:center;
+}
+.fx-start{
+    @include fx;
+    justify-content:flex-start;
+}
+.fx-end{
+    @include fx;
+    justify-content:flex-end;
+}
+.fx-space-around{
+    @include fx;
+    justify-content:space-around;
+}
+.fx-space-between{
+    @include fx;
+    justify-content:space-between;
+}
+
+// flex Align Items
+
+.fx-align-items-center{
+    @include fx;
+    align-items:center;
+}
+.fx-align-items-start{
+    @include fx;
+    align-items:flex-start;
+}
+.fx-align-items-end{
+    @include fx;
+    align-items:flex-end;
+}
+.fx-align-items-stretch{
+    @include fx;
+    align-items:stretch;
+}
+
+// PERFECT CENTERING
+
+.fx-perfect-center{
+    @include fx;
+    justify-content: center;
+    align-items: center;
+}

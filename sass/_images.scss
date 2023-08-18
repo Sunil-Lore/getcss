@@ -1,0 +1,36 @@
+// IMAGES
+
+// Fluid IMAGES
+
+.image-fluid{
+    width:100%;
+    height:auto;
+    display:block;
+    margin:0;
+}
+
+// Flex IMAGES
+
+.image-flex{
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:0;
+}
+
+// Grey IMAGES
+
+.image-gray,.image-grey{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.bg-size-contain{
+    background-size:contain;
+}
+.bg-size-cover{
+    background-size:cover;
+}
+.bg-size-100pr{
+    background-size:100% 100%;
+}

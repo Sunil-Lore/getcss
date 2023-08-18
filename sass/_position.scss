@@ -1,0 +1,25 @@
+$position:(absolute,fixed, relative, sticky,static);
+
+@each $pose in $position {
+	.position-#{$pose}{
+		position:#{$pose};
+	}
+}
+
+// Float Properties
+
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.fc{
+    margin:auto;
+}
+.fi{
+	float:inherit;
+}
+.fn{
+	float:none;
+}

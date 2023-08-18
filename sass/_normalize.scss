@@ -1,0 +1,34 @@
+* {
+    margin:0;
+}
+*::before, *, *::after {
+    box-sizing:border-box;
+}
+* {
+    line-height: 1.5;
+}
+html {
+    scroll-behavior: smooth;
+}
+html, body {
+    height: 100%;
+}
+body{
+    font-size:16px;
+}
+code,kbd,samp,pre {
+    font-weight:200;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+img {
+    border-style:none;
+    display: block;
+}
+a {
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight:bold;
+  }
