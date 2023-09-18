@@ -2,8 +2,6 @@
 // https://www.getcss.org
 // Licensed under MIT Open Source
 
-// TEXT ALIGNMENT
-
 $text-align:(center,left,right,justify);
 
 @each $align in $text-align {

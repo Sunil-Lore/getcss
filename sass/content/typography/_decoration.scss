@@ -2,11 +2,6 @@
 // https://www.getcss.org
 // Licensed under MIT Open Source
 
-// TEXT DECORATION
-
-//
-// Text Decoration Line style
-//
 
 $deco-line:(overline,underline,line-through,none);
 
@@ -16,10 +11,6 @@ $deco-line:(overline,underline,line-through,none);
 	}
 }
 
-//
-// Text Decoration Line style
-//
-
 $deco-style:(solid,double,dotted,dashed,wavy);
 
 @each $decostyle in $deco-style {
@@ -28,10 +19,6 @@ $deco-style:(solid,double,dotted,dashed,wavy);
 	}
 }
 
-//
-// Text Decoration Line Thickness in pixel
-//
-
 $decothickpx: 1;
 @while $decothickpx <= 10{
 	.deco-#{$decothickpx}-px{
@@ -39,10 +26,6 @@ $decothickpx: 1;
 	}
 	$decothickpx:$decothickpx+1;
 }
-
-//
-// Text Decoration Line Thickness in percentage
-//
 
 $decothickpr: 1;
 @while $decothickpr <= 10{

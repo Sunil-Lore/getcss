@@ -2,12 +2,6 @@
 // https://www.getcss.org
 // Licensed under MIT Open Source
 
-// TEXT INDENTATION
-
-//
-// Text Indentation in pixel
-//
-
 $indentpx: 1;
 @while $indentpx <= 50{
 	.indent-#{$indentpx}-px{
@@ -15,10 +9,6 @@ $indentpx: 1;
 	}
 	$indentpx:$indentpx+1;
 }
-
-//
-// Text Indentation in percentage
-//
 
 $indentpr: 1;
 @while $indentpr <= 50{

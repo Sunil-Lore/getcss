@@ -2,10 +2,6 @@
 // https://www.getcss.org
 // Licensed under MIT Open Source
 
-// HEIGHT
-
-// height in pixel
-
 $h:10;
 @while $h <= 500 {
 	.h-#{$h}-px{
@@ -13,8 +9,6 @@ $h:10;
 	}
 	$h:$h+10;
 }
-
-// height in percentage 
 
 $h:5;
 @while $h <= 100 {
@@ -24,10 +18,6 @@ $h:5;
 	$h:$h+5;
 }
 
-// WIDTH
-
-// width in pixel
-
 $w:10;
 @while $w <= 500 {
 	.w-#{$w}-px{
@@ -35,8 +25,6 @@ $w:10;
 	}
 	$w:$w+10;
 }
-
-// width in percentage
 
 $w:5;
 @while $w <= (100){

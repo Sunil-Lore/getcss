@@ -2,8 +2,6 @@
 // https://www.getcss.org
 // Licensed under MIT Open Source
 
-// WORD SPACING
-
 $ws:(-2);
 @while $ws <= 5 {
 	.ws-#{$ws}{

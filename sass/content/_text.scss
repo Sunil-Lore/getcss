@@ -2,8 +2,6 @@
 // https://www.getcss.org
 // Licensed under MIT Open Source
 
-// Media Query for Mobile Phones/extra small width screens less than 528px
-
 @media only screen and (max-width:527px) {
 
     h1{
@@ -32,9 +30,6 @@
     }
     
 }
-
-
-// Media Query for Mobile Phones or small width tablets greater than or equal to 528px
 
 @media only screen and (min-width:528px) {
 
@@ -65,8 +60,6 @@
     
 }
 
-// Media Query for tablets/small width laptops greater than or equal to 768px
-
 @media only screen and (min-width:768px) {
     h1{
         font-size:44px;
@@ -94,8 +87,6 @@
     }
 
 }
-
-// Media Query for laptops/small width desktop screens greater than or equal to 1008px
 
 @media only screen and (min-width:1008px) {
     h1{
@@ -125,8 +116,6 @@
 
 }
 
-// Media Query for Desktop screens/small width TVs greater than or equal to 1248px
-
 @media only screen and (min-width:1248px) {
     h1{
         font-size:60px;
@@ -155,8 +144,6 @@
 
 }
 
-// Media Query for Big TVs/large screens greater than or equal to 1488px
-
 @media only screen and (min-width:1488px) {
     h1{
         font-size:71px;
@@ -184,8 +171,6 @@
     }
 
 }
-
-// Heading and Paragraph Text size classes
 
 $fs:10;
 

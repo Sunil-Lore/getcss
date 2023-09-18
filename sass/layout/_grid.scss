@@ -12,8 +12,6 @@
   float: left;
 }
 
-// Media Query for Mobile Phones/extra small width screens less than 528px
-
 [class*="col-"] {
 	width:100%;
 }
@@ -28,9 +26,4 @@
         .col-#{$bp-name}-#{$col}{
             flex:($col * $a * 1%);
         }
-        $col:$col+1;
-    } 
-}
-}
-
-// all media query loop end
+        $col:$col+1;}}}
