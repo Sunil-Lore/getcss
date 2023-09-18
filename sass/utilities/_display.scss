@@ -2,8 +2,6 @@
 // https://www.getcss.org
 // Licensed under MIT Open Source
 
-// Z INDEX
-
 $zi:-5;
 @while $zi <= 5 {
 	.z-index-#{$zi}{
