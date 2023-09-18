@@ -1,0 +1,16 @@
+// getcss : An intuitive CSS framework
+// https://www.getcss.org
+// Licensed under MIT Open Source
+
+.container-fluid,
+ .container-dxl,
+  .container-xl,
+   .container-lg,
+    .container-md,
+     .container-sm,
+      .container-xs,
+       .container{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+  }

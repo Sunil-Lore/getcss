@@ -1,0 +1,36 @@
+// getcss : An intuitive CSS framework
+// https://www.getcss.org
+// Licensed under MIT Open Source
+
+.row::after {
+    content:"";
+    clear:both;
+    display: block;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+// Media Query for Mobile Phones/extra small width screens less than 528px
+
+[class*="col-"] {
+	width:100%;
+}
+// all media query loop start
+
+@each $bp-name,$bp-width in $break-points {
+    @media only screen and (min-width:($bp-width) * 1px) {
+
+    $col:1;
+    $a: math.div(100, 12);
+    @while $col <= 12{
+        .col-#{$bp-name}-#{$col}{
+            flex:($col * $a * 1%);
+        }
+        $col:$col+1;
+    } 
+}
+}
+
+// all media query loop end
