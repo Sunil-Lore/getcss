@@ -3,18 +3,4 @@
 // Licensed under MIT Open Source
 
 @use "sass:math";
-@import
-"mixins/mixins",
-"normalize",
-"font-family",
-"layout/layout",
-"media-query",
-"flexbox",
-"padding/padding",
-"margin/margin",
-"colors/colors",
-"content",
-"text",
-"display",
-"dimension",
-"position";
+@import "mixins/mixins","normalize","font-family","layout/layout","components/components","media-query","content/content","structure/structure","utilities/utilities";
