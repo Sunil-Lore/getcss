@@ -1,0 +1,21 @@
+// getcss : An intuitive CSS framework
+// https://www.getcss.org
+// Licensed under MIT Open Source
+
+// TEXT LINE HEIGHT
+
+$lh-steps: ("narrow":0.8,"normal": 1, "wide": 1.2);
+
+@each $line, $height in $lh-steps {
+  .lh-#{$line} {
+    line-height: $height;
+  }
+}
+
+
+
+
+
+
+
+
