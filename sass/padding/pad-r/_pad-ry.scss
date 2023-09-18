@@ -1,0 +1,21 @@
+// getcss : An intuitive CSS framework
+// https://www.getcss.org
+// Licensed under MIT Open Source
+
+$ppr:1;
+@while $ppr <= 9 {
+	.p-y-#{$ppr}-pr{
+		padding-top:($ppr*1%);
+		padding-bottom:($ppr*1%);
+	}
+	$ppr:$ppr+1;
+}
+
+$ppr:10;
+@while $ppr <= 25 {
+	.p-y-#{$ppr}-pr{
+		padding-top:($ppr*1%);
+		padding-bottom:($ppr*1%);
+	}
+	$ppr:$ppr+5;
+}

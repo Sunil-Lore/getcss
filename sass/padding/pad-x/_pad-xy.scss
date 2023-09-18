@@ -1,0 +1,21 @@
+// getcss : An intuitive CSS framework
+// https://www.getcss.org
+// Licensed under MIT Open Source
+
+$ppx:1;
+@while $ppx <= 9 {
+	.p-y-#{$ppx}-px{
+		padding-top:($ppx*1px);
+		padding-bottom:($ppx*1px);
+	}
+	$ppx:$ppx+1;
+}
+
+$ppx:10;
+@while $ppx <= 100 {
+	.p-y-#{$ppx}-px{
+		padding-top:($ppx*1px);
+		padding-bottom:($ppx*1px);
+	}
+	$ppx:$ppx+5;
+}
