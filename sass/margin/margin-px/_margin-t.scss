@@ -1,0 +1,19 @@
+// getcss : An intuitive CSS framework
+// https://www.getcss.org
+// Licensed under MIT Open Source
+
+$mpx:1;
+@while $mpx <= 9 {
+	.m-t-#{$mpx}-px{
+		margin-top:($mpx*1px);
+	}
+	$mpx:$mpx+1;
+}
+
+$mpx:10;
+@while $mpx <= 100 {
+	.m-t-#{$mpx}-px{
+		margin-top:($mpx*1px);
+	}
+	$mpx:$mpx+5;
+}

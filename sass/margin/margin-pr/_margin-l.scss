@@ -1,0 +1,19 @@
+// getcss : An intuitive CSS framework
+// https://www.getcss.org
+// Licensed under MIT Open Source
+
+$mpr:1;
+@while $mpr <= 9 {
+	.m-l-#{$mpr}-pr{
+		margin-left:($mpr*1%);
+	}
+	$mpr:$mpr+1;
+}
+
+$mpr:10;
+@while $mpr <= 25 {
+	.m-l-#{$mpr}-pr{
+		margin-left:($mpr*1%);
+	}
+	$mpr:$mpr+5;
+}

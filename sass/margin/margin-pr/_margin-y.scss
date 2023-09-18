@@ -1,0 +1,20 @@
+// getcss : An intuitive CSS framework
+// https://www.getcss.org
+// Licensed under MIT Open Source
+$mpr:1;
+@while $mpr <= 9 {
+	.m-y-#{$mpr}-pr{
+		margin-top:($mpr*1%);
+		margin-bottom:($mpr*1%);
+	}
+	$mpr:$mpr+1;
+}
+
+$mpr:10;
+@while $mpr <= 25 {
+	.m-y-#{$mpr}-pr{
+		margin-top:($mpr*1%);
+		margin-bottom:($mpr*1%);
+	}
+	$mpr:$mpr+5;
+}
