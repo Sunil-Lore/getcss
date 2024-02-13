@@ -1007,12 +1007,12 @@ body {
   background-size: 100% 100%;
 }
 
-table {
+.table {
   border-collapse: collapse;
   width: 100%;
 }
-table th, table td {
-  border-bottom: 1px solid #003A6A;
+.table th, .table td {
+  border-bottom: 1px solid silver;
   padding: 10px;
   text-align: center;
 }

@@ -2,11 +2,11 @@
 // https://www.getcss.org
 // Licensed under MIT Open Source
 
-table{
+.table{
     border-collapse:collapse;
     width:100%;
     th,td{
-    border-bottom:1px solid #003A6A;
+    border-bottom:1px solid silver;
     padding:10px;
     text-align:center;
     }
