@@ -2,7 +2,7 @@
 // https://www.getcss.org
 // Licensed under MIT Open Source
 
-.fx-container{
+.fx{
     @include fx;
 }
 
@@ -57,19 +57,36 @@
     justify-content:space-between;
 }
 
-.fx-align-items-center{
+.fx-items-center{
     @include fx;
     align-items:center;
 }
-.fx-align-items-start{
+.fx-items-start{
     @include fx;
     align-items:flex-start;
 }
-.fx-align-items-end{
+.fx-items-end{
     @include fx;
     align-items:flex-end;
 }
-.fx-align-items-stretch{
+.fx-items-stretch{
+    @include fx;
+    align-items:stretch;
+}
+
+.fx-content-center{
+    @include fx;
+    align-items:center;
+}
+.fx-content-start{
+    @include fx;
+    align-items:flex-start;
+}
+.fx-content-end{
+    @include fx;
+    align-items:flex-end;
+}
+.fx-content-stretch{
     @include fx;
     align-items:stretch;
 }
