@@ -4443,7 +4443,7 @@ body {
   margin-bottom: 100px;
 }
 
-.fx-container {
+.fx {
   display: flex;
 }
 
@@ -4507,30 +4507,80 @@ body {
   justify-content: space-between;
 }
 
-.fx-align-items-center {
+.fx-items-center {
   display: flex;
   align-items: center;
 }
 
-.fx-align-items-start {
+.fx-items-start {
   display: flex;
   align-items: flex-start;
 }
 
-.fx-align-items-end {
+.fx-items-end {
   display: flex;
   align-items: flex-end;
 }
 
-.fx-align-items-stretch {
+.fx-items-stretch {
   display: flex;
   align-items: stretch;
+}
+
+.fx-items-baseline {
+  display: flex;
+  align-items: baseline;
+}
+
+.fx-lines-center {
+  display: flex;
+  align-content: center;
+}
+
+.fx-lines-start {
+  display: flex;
+  align-content: flex-start;
+}
+
+.fx-lines-end {
+  display: flex;
+  align-content: flex-end;
+}
+
+.fx-lines-stretch {
+  display: flex;
+  align-content: stretch;
+}
+
+.fx-lines-between {
+  display: flex;
+  align-content: space-between;
+}
+
+.fx-lines-around {
+  display: flex;
+  align-content: space-around;
 }
 
 .fx-perfect-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.fx-self-center {
+  display: flex;
+  align-self: center;
+}
+
+.fx-self-start {
+  display: flex;
+  align-self: flex-start;
+}
+
+.fx-self-end {
+  display: flex;
+  align-self: flex-end;
 }
 
 .z-index--5 {
