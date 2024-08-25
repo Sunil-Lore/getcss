@@ -73,26 +73,51 @@
     @include fx;
     align-items:stretch;
 }
+.fx-items-baseline{
+    @include fx;
+    align-items:baseline;
+}
 
-.fx-content-center{
+.fx-lines-center{
     @include fx;
-    align-items:center;
+    align-content:center;
 }
-.fx-content-start{
+.fx-lines-start{
     @include fx;
-    align-items:flex-start;
+    align-content:flex-start;
 }
-.fx-content-end{
+.fx-lines-end{
     @include fx;
-    align-items:flex-end;
+    align-content:flex-end;
 }
-.fx-content-stretch{
+.fx-lines-stretch{
     @include fx;
-    align-items:stretch;
+    align-content:stretch;
+}
+.fx-lines-between{
+    @include fx;
+    align-content:space-between;
+}
+.fx-lines-around{
+    @include fx;
+    align-content:space-around;
 }
 
 .fx-perfect-center{
     @include fx;
     justify-content: center;
     align-items: center;
+}
+
+.fx-self-center{
+    @include fx;
+    align-self:center;
+}
+.fx-self-start{
+    @include fx;
+    align-self:flex-start;
+}
+.fx-self-end{
+    @include fx;
+    align-self:flex-end;
 }
