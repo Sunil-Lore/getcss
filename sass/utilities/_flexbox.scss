@@ -121,3 +121,23 @@
     @include fx;
     align-self:flex-end;
 }
+.fx-self-stretch{
+    @include fx;
+    align-self:stretch;
+}
+.fx-self-baseline{
+    @include fx;
+    align-self:baseline;
+}
+.fx-self-inherit{
+    @include fx;
+    align-self:inherit;
+}
+.fx-self-initial{
+    @include fx;
+    align-self:initial;
+}
+.fx-self-auto{
+    @include fx;
+    align-self:auto;
+}
