@@ -4583,6 +4583,31 @@ body {
   align-self: flex-end;
 }
 
+.fx-self-stretch {
+  display: flex;
+  align-self: stretch;
+}
+
+.fx-self-baseline {
+  display: flex;
+  align-self: baseline;
+}
+
+.fx-self-inherit {
+  display: flex;
+  align-self: inherit;
+}
+
+.fx-self-initial {
+  display: flex;
+  align-self: initial;
+}
+
+.fx-self-auto {
+  display: flex;
+  align-self: auto;
+}
+
 .z-index--5 {
   z-index: -5;
 }
